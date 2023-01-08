@@ -1,4 +1,4 @@
-using SubscriberCounterTool.Common;
+ï»¿using SubscriberCounterTool.Common;
 using SubscriberCounterTool.Common.Sets;
 using SubscriberCounterTool.Extensions;
 
@@ -247,7 +247,7 @@ public partial class MainForm : Form
             if (string.IsNullOrEmpty(channelID))
             {
                 MessageBox.Show(
-                    "½Ğ¿é¤J YouTube ÀW¹D ID¡C",
+                    "è«‹è¼¸å…¥ YouTube é »é“ IDã€‚",
                     Text,
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
@@ -274,7 +274,7 @@ public partial class MainForm : Form
                 AddExtension = true,
                 DefaultExt = ".png",
                 FileName = $"Screenshot_{DateTime.Now:yyyyMMddHHmmss}",
-                Filter = "PNG ¹Ï¤ù (*.png)|*.png|JPEG ¹Ï¤ù (*.jpg)|*.jpg",
+                Filter = "PNG åœ–ç‰‡ (*.png)|*.png|JPEG åœ–ç‰‡ (*.jpg)|*.jpg",
                 FilterIndex = 0
             };
 
